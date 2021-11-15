@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask
 from flask_discord_interactions import DiscordInteractions
 
@@ -24,4 +26,4 @@ discord.update_commands(guild_id="909870127686750270")
 
 
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(port=os.environ.get('PORT'))
