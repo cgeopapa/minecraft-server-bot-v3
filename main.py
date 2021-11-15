@@ -26,4 +26,4 @@ discord.update_commands(guild_id="909870127686750270")
 
 
 if __name__ == '__main__':
-    app.run(port=os.environ.get('PORT'))
+    app.run(host="0.0.0.0", port=os.environ.get('PORT'))
