@@ -1,0 +1,2 @@
+Flask~=2.0.2
+Flask-Discord-Interactions~=1.1.1
