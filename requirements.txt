@@ -1,2 +1,16 @@
-Flask~=2.0.2
+Flask
 Flask-Discord-Interactions~=1.1.1
+
+azure-common
+azure-core
+azure-identity
+azure-mgmt-compute
+azure-mgmt-core
+azure-mgmt-network
+azure-mgmt-resource
+msrestazure
+mcrcon
+
+python-dotenv
+
+quart
