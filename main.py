@@ -78,7 +78,7 @@ async def stop(ctx):
 
 
 discord.set_route_async("/interactions")
-discord.update_commands(guild_id=os.getenv("TEST_SERVER_ID"))
+discord.update_commands()
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=PORT)
